@@ -1,0 +1,156 @@
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css"> <!-- pre loader -->
+    <link rel="stylesheet" href="../pag. principal/css/style-geral.css"> <!-- custom CSS -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>ThanosvsBurguer</title>
+  </head>
+
+  <!--HTML-->
+  <body>
+  <!-- início do preloader -->
+  <div id="preloader">
+    <div class="inner">
+       <!-- HTML DA TELA DE CARREGAMENTO! -->
+       <div class="bolas">
+          <div></div>
+          <div></div>
+          <div></div>                    
+       </div>
+    </div>
+</div>
+<!-- FIM --> 
+
+ <!-- CARRINHO 
+<nav class="nav" id="nav">
+  <a href="../pag. principal/cardapio/carrinho/index.html">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16" >
+      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </svg>
+      <p>Seu carrinho</p>
+    </a>
+</nav> -->
+
+    <!-- CARROSSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/a1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/a2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/a3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+
+    <!-- IMG 30% OFF NA PRIMEIRA COMPRA -->
+    <img src="img/off.jpg" class="img-fluid"><br><br><br>
+
+  <!-- TEXTO -->
+    <div class="col-11 m-auto">
+      <h2 class="text-center" style="font-family: Marvelan Regular; font-size: 38px;">O que temos para hoje?</h2>
+      <p class="text-center">
+    </div>
+    <br>
+
+    <!-- CARDAPIO -->
+    <main class="cards">
+      <article class="card">
+        <img src="img/hamburguer.jpg">
+        <div class="text"><br>
+          <!-- <h2 class="Lanches Tradicionais" style="text-align: center; font-family: Marvelan; font-size: 20px;">Lanches Tradicionais</h2> -->
+          <h2 class="categorias">Lanches Tradicionais</h2>
+          <br>
+          <a class="button" href="cardapio/cardapio-listar.php?categoria=lanche" role="button">Ver Cardápio</a>
+        </div>
+      </article>
+      <br><br>
+      <article class="card">
+        <img src="img/gourmet.jpg">
+        <div class="text"><br>
+          <!-- <h2 class="Lanches Tradicionais" style="text-align: center; font-family: Marvelan; font-size: 20px;">Lanches Gourmet</h2> -->
+          <h2 class="categorias">Lanches Gourmet</h2>
+          <br>
+          <a class="button" href="cardapio/cardapio-listar.php?categoria=gourmet" role="button">Ver Cardápio</a>
+        </div>
+      </article>
+      </main>
+      <br>
+
+      <main class="cards">
+        <article class="card">
+          <img src="img/refrigerantes.jpg">
+          <div class="text"><br>
+            <!-- <h2 class="Lanches Tradicionais" style="text-align: center; font-family: Marvelan; font-size: 20px;">Refrigerantes</h2> -->
+            <h2 class="categorias">Refrigerantes</h2>
+            <br>
+            <a class="button" href="cardapio/cardapio-listar.php?categoria=refrigerantes" role="button">Ver Cardápio</a>
+          </div>
+        </article>
+        <br><br>
+        <article class="card">
+          <img src="img/cervejas.jpg">
+          <div class="text"><br>
+            <!-- <h2 class="Lanches Tradicionais" style="text-align: center; font-family: Marvelan; font-size: 20px;">Bebidas Alcóolicas</h2> -->
+            <h2 class="categorias">Bebidas Alcóolicas</h2>
+            <br>
+            <a class="button" href="cardapio/cardapio-listar.php?categoria=bebidas" role="button">Ver Cardápio</a>
+          </div>
+        </article>
+        </main>
+  <br><br>  <br><br>
+
+    <!-- RODAPÉ -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+      
+      <footer style="background-color: #511378;" class="page-footer font-small blue p-3" >
+        <div class="redes-sociais">
+          <p class="texto1">Siga nos nas redes socias</p><br>
+          <a class="face" href="https://www.facebook.com/Thanos-VS-Burguer-102126185620960/">
+            <img class="face" src="img/face.png">
+          </a>
+          <a class="wpp" href="https://api.whatsapp.com/send?phone=5512991470566&text=Gostaria%20de%20fazer%20um%20pedido!">
+            <img class="wpp" src="img/wpp.png">
+          </a>
+          <a class="insta" href="https://www.instagram.com/thanosvsburguer/">
+            <img class="insta" src="img/insta.png">
+          </a>
+        <br><br>
+          <div class="text-center">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="texto2" href="quemSomos/quemsomos.html">Quem Somos?</a>
+                <br><br>
+                <a class="texto3" href="comentario/comentario.html">Deixe um comentário aqui!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br>
+      </footer>
+      <!--Tela de Carregamento-->
+      <script src="preloader.js"></script>
+  </body>
+</html>

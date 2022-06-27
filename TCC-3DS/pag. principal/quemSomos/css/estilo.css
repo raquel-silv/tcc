@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 7px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 10%;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+  .card img{
+    border: 7px outset #6a3be4;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container h2{
+    color: aliceblue;
+    font-size: 24px;
+  }
+  
+  .container p{
+    color: #f0f0f0;
+    font-size: 17px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .button {
+    border: none;
+    border-radius: 20px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-image: linear-gradient(to right, #52057f, #6a3be4);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #52057f, #ae63e4, #004eaf, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+}

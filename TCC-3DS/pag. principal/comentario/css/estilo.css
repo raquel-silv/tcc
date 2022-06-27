@@ -1,0 +1,76 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, #ae63e4, #511378);
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+fieldset{
+    border: 3px solid #6a3be4;
+}
+
+legend{
+    border: 1px solid #6a3be4;
+    padding: 10px;
+    text-align: center;
+    background-color: #6a3be4;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 3px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    opacity: 50%;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #6a3be4;
+    opacity: 100%;
+}
+
+#submit{
+    background-image: linear-gradient(to right,  #ae63e4, #511378);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, #ae63e4, #511378);
+    opacity: 50%;
+}
+
+#submit:focus .icon{
+    opacity: 1;
+    transition-delay: .5s;
+}

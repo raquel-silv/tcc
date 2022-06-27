@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(-45deg, #52057f, #ae63e4, #004eaf, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.button { /*cardapio*/
+    background-image: linear-gradient(to right, #ae63e4, #511378);
+    color: #ffff;
+    font-size: 18px;
+    border: 2px solid #caccd1;
+    border-radius: 20px;   
+    padding: 6px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+ 
+  
+}
+.button:hover{
+    color: black;
+    opacity: 35%;
+}
+ 
+.texto1{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: auto;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.texto1:hover{ /* pag. principal*/ 
+    opacity: 25%;
+}
+
+
+.texto2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: auto;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.texto2:hover{ /* pag. principal*/ 
+    opacity: 25%;
+}
+
+.form-control{
+    max-width: max-content;
+    padding: 6px;
+}

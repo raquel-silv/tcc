@@ -1,0 +1,43 @@
+
+
+
+
+=====================
+Adicionar na index dentro da tag Body
+=====================
+
+<body>
+
+  <!-- início do preloader -->
+  <div id="preloader">
+    <div class="inner">
+       <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+       <div class="bolas">
+          <div></div>
+          <div></div>
+          <div></div>                    
+       </div>
+    </div>
+</div>
+<!-- fim do preloader --> 
+
+
+</body>
+
+
+
+
+
+=============================
+Adicionar ao rodapé JS - Ultima linha
+=============================
+
+<script src="js/preloader.js"></script>
+
+====================================
+COLOQUE O PRELOADER.JS NA SUA PASTA /JS
+====================================
+
+Observação: Dentro do script "preloader.js" já é incluso o JQUERY 3.6.0 necessário para o funcionamento.
+
+Link do CDN: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js

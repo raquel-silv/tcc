@@ -1,0 +1,11 @@
+/*
+    O que ainda precisa ser feito:
+
+        Página para listar cesta do carrinho;
+
+            Botão confirmar pedido: depois de listar os pedidos que foram adicionados na sessão da página, deve ter um botão que permita gravar na base de dados os itens que estão na sessão
+
+            Gravar na base de dados os itens do pedido;
+
+            Depois de gravar na base de dados, deve destruir a sessão (session_destroy());
+*/

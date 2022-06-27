@@ -1,0 +1,198 @@
+* {
+ box-sizing: border-box; /* pag. principal*/ 
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav a {
+  margin: auto 8px auto 8px;
+  position: fixed;
+  top: 50%;
+  color: #511378;
+}
+
+.nav .p{
+  font-size: 7px;
+  font-family: monospace;
+  display: flex;
+  text-decoration: none;
+}
+
+.cards { /* pag. principal*/ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  text-align: center;
+  position: center; 
+  margin: 0 auto;
+}
+.card { /*pag. principal & cardapio*/
+  width: 420px;
+  font-size: 14px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+} 
+.card img { /* pag. principal*/ 
+  max-width: 100%;
+}
+.card .text { /* pag. principal*/ 
+  padding: 0 20px 20px;
+}
+.card .text > button { /* pag. principal*/ 
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+.card:nth-child(1) { /* pag. principal*/ 
+  width: 420px;
+}
+
+.button { /*cardapio*/
+  background-image: linear-gradient(to right, #ae63e4, #511378);
+  color: #ffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.button:hover{
+  color: black;
+  opacity: 35%;
+}
+
+.footer{ /* pag. principal*/ 
+  background-color: #511378;
+}
+
+.redes-sociais{ /* pag. principal*/ 
+text-align: center;
+padding: 30px;
+text-decoration: none;
+}
+
+
+.redes-sociais .insta{ /* pag. principal*/ 
+  width: 55px;
+  height: 55px;
+  padding: 3px;
+}
+
+  .redes-sociais .face{ /* pag. principal*/ 
+    width: 55px;
+    height: 55px;
+    padding: 3px;
+  }
+    .redes-sociais .wpp{ /* pag. principal*/ 
+      width: 55px;
+      height: 55px;
+      padding: 3px;
+    }
+
+.face:hover{ /* pag. principal*/ 
+  opacity: 25%;
+}
+
+.wpp:hover{
+  opacity: 25%;
+  }
+.insta:hover{
+  opacity: 25%;
+}
+
+.redes-sociais .texto1{ /* pag. principal*/ 
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #caccd1;
+  margin: auto
+}
+  .redes-sociais .texto2{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #caccd1;
+  margin: auto;
+  text-decoration: none;
+  }
+    .redes-sociais .texto3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #caccd1;
+    margin: auto;
+    text-decoration: none;
+    }
+
+.texto2:hover{ /* pag. principal*/ 
+opacity: 25%;
+} 
+.texto3:hover{ /* pag. principal*/ 
+  opacity: 25%;
+}
+
+.categorias{ /*cardapio*/
+  text-align: center; 
+  font-family: Marvelan; 
+  font-size: 17px;
+  padding: 15px;
+}
+
+.img-listar{ /*cardapio*/
+  width: 290px;
+  height: 200px;
+  padding: 2px;
+}
+
+.chip{ /*cardapio*/
+  font-family: Marvelan;
+  font-size: 17px;
+  padding: 8px;
+}
+
+#quanti{ /*cardapio*/
+  width: 250px;
+  height: 50px;
+  border: 1px solid #6a3be4;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.button1{
+  background-image: linear-gradient(to right, #ae63e4, #511378);
+  font-size: 18px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 228px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.txt{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}

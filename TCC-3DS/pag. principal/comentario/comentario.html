@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"> <!-- custom CSS -->
+    <title>Comentário</title>
+</head>
+<body>
+<!-- início do preloader -->
+  <div id="preloader">
+    <div class="inner">
+       <!-- HTML DA ANIMAÇÃO DO PRELOADER! -->
+       <div class="bolas">
+          <div></div>
+          <div></div>
+          <div></div>                    
+       </div>
+    </div>
+</div>
+<!-- fim do preloader -->
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>FeedBack de Clientes</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome</label>
+                </div>    
+                <p>Deixe uma Estrela</p>
+                <input type="radio" id="estrela_1" name="estrela" value="estrela_1" required>
+                <label for="" class="avaliacao">&#11088;</label>
+                <br>
+                <input type="radio" id="estrela_2" name="estrela" value="estrela_2" required>
+                <label for="" class="avaliacao">&#11088;&#11088;</label>
+                <br>
+                <input type="radio" id="estrela_3" name="estrela" value="estrela_3" required>
+                <label for="" class="avaliacao">&#11088;&#11088;&#11088;</label>
+                <br>
+                <input type="radio" id="estrela_4" name="estrela" value="estrela_4" required>
+                <label for="" class="avaliacao">&#11088;&#11088;&#11088;&#11088;</label>
+                <br>
+                <input type="radio" id="estrela_5" name="estrela" value="estrela_5" required>
+                <label for="" class="avaliacao">&#11088;&#11088;&#11088;&#11088;&#11088;</label>
+
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="nome" class="labelInput">Cidade</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="nome" class="labelInput">Comentário</label>
+                </div>
+                <br>
+                <input href="http://localhost/TCC-3DS/pag.%20principal/" type="submit" name="submit" id="submit" onclick="alert('Enviado com Sucesso! Obrigado :>')">
+                <br><br><center><a  href="http://localhost/TCC-3DS/pag.%20principal/">Voltar para a página</a></center>
+            </fieldset>
+        </form>
+    </div>
+    <script src="preloader.js"></script>
+</body>
+</html>
